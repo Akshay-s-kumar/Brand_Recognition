@@ -1,0 +1,17 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore large data files (Git LFS will handle them separately)
+Dataset/raw/
+Dataset/processed/
+models/
+notebooks/
+Code/X.npy
+Code/*.h5
+Code/*.tflite
